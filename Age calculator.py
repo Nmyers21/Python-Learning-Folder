@@ -1,4 +1,4 @@
-age = input("How old are you in days?")
-days = float(age) * 365
+age = input("How old are you in years?")
+days = int(float(age)) * 365
 print(f"you are {days} days old")
 
